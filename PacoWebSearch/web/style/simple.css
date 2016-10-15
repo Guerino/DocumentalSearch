@@ -1,0 +1,102 @@
+/* 
+    Document   : simple
+    Created on : 30-ene-2013, 18:12:58
+    Author     : Guerino
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+background: #5b7c9e; /* Old browsers */
+background: -moz-linear-gradient(top,  #5b7c9e 0%, #53789e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b7c9e), color-stop(100%,#53789e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #5b7c9e 0%,#53789e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #5b7c9e 0%,#53789e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #5b7c9e 0%,#53789e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #5b7c9e 0%,#53789e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b7c9e', endColorstr='#53789e',GradientType=0 ); /* IE6-9 */
+}
+
+.linkIndex  {text-decoration: none;}
+
+.mainLogo{ padding-top: 60px; padding-right: 50px;}
+.paco{
+    color: #3093c7;
+    text-shadow: 0px -2px 0px #333,
+                  0px 2px 3px #666;
+}
+
+.search{
+    color: orangered;
+    text-shadow: 0px -2px 0px #333,
+                  0px 2px 3px #666;
+}
+.info{
+    padding-top: 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 12px;
+    border-bottom-width: 1px;
+    border-bottom-style:  solid;
+    border-bottom-color:  #DEDEDE;
+}
+.text { 		
+    padding: 10px; 
+    margin: 4px 0 2px 0;
+    width: 420px; 
+    font-size: 16px; 
+    font-weight:  400;
+    color: black; 
+    border: 1px #1c5a85 solid;
+}
+
+.logo {
+   font-size: 50px;
+   font-family:  Verdana, Arial, Helvetica, sans-serif;    
+}
+
+h4 {height: 5px;}
+
+h4 a:hover{
+   height: 5px;
+   color: #1c5a85;
+}
+
+p {height: 12px;}
+
+.path{
+    color: #093;
+    font-style: normal;
+}
+
+.result{height: 70px;}
+
+.submit{
+ border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; text-align: center; color: #FFFFFF; background-color: #3093c7;
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3093c7), color-stop(100%, #1c5a85));
+ background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: linear-gradient(top, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+
+.submit:hover{
+ border:1px solid #1c5675; background-color: #26759e;
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#26759e), color-stop(100%, #133d5b));
+ background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+ background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+ background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+ background-image: -o-linear-gradient(top, #26759e, #133d5b);
+ background-image: linear-gradient(top, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+
+.footer{
+    color:  #555;
+    border-top:  #555 solid thin;
+    font-size: 13px;
+}

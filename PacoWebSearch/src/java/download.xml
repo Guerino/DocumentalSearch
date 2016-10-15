@@ -1,0 +1,19 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<!-- Author: Guerino -->
+ 
+<struts>
+    <!-- Add your configuration elements here -->
+    <package name="actions" extends="struts-default">
+        <action name="download" class="actions.DownloadAction">                               
+             <result name="success" type="stream">
+                 <param name="contentType">application/octet-stream</param>
+                 <param name="inputName">fileInputStream</param>
+                 <param name="contentDisposition">attachment;filename=%{filename}</param>
+                 <param name="bufferSize">8192</param>
+             </result>     
+        </action>
+    </package>
+</struts>
